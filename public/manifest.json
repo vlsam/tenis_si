@@ -1,0 +1,14 @@
+{
+  "name": "TK77 Skalica - Rezervácie",
+  "short_name": "TK77 Skalica",
+  "description": "Rezervácia tenisových kurtov TK77 Skalica",
+  "start_url": "/courts",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#171717",
+  "theme_color": "#1e7a34",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
