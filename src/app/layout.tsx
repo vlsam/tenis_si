@@ -10,7 +10,7 @@ const title = `${isDemo ? '[TEST] ' : ''}TK77 Skalica - Rezervácie kurtov`;
 const description = 'Tenisový klub TK77 Skalica - 7 vonkajších antukových kurtov, rezervácie online a kredit cez QR platbu.';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://tk77.sk'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://tenis.seres.cz'),
   title,
   description,
   manifest: '/manifest.json',
