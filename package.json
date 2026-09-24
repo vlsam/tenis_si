@@ -1,0 +1,41 @@
+{
+  "name": "rezervacie-supabase",
+  "private": true,
+  "version": "1.0.0",
+  "description": "BeOnCourt - rezervačný modul (Next.js + TypeScript + Supabase)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "supabase:types": "supabase gen types typescript --local > src/lib/types/database.types.ts"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.45.4",
+    "bysquare": "^4.0.0",
+    "next": "16.3.6",
+    "nodemailer": "^10.0.10",
+    "qrcode": "^1.5.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "@types/nodemailer": "^8.0.2",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "supabase": "^2.117.0",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  },
+  "overrides": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  }
+}
